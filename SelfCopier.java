@@ -11,7 +11,6 @@ public class SelfCopier {
         try {
             reader = new FileReader("SelfCopier.java");
             writer = new FileWriter("CopyOfSelfCopier.txt");
-
             int character;
             while ((character = reader.read()) != -1) {
                 writer.write(character);
